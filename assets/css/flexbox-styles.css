@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 11px;
+    max-width: 1000px;
+}
+
+.flexbox-item {
+    margin-left: 5px;
+    padding: 11px;
+}
+.flexbox-item:first-child {
+    margin: 0;
+}
+.flexbox-item {
+	border-radius: 7px;
+	color: #eee;
+	font: 700 20px 'Open Sans';
+	padding: 11px;
+}
+.flexbox-item:nth-child(even) {
+	background-color: var(--dark);
+	color: var(--light);
+}
+.flexbox-item:nth-child(odd) {
+	background-color: var(--light);
+	color: var(--dark);
+}
